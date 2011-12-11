@@ -1,0 +1,22 @@
+/* -----------------------------------------------------------------------
+
+
+ Ellis Berner
+ http://ellisberner.com
+
+   * This file contains Application specific styles.
+
+----------------------------------------------------------------------- */
+
+/* application.css */
+#header h1 a {text-decoration:none;font-family:'Sorts Mill Goudy',serif}
+ul.list {list-style:none;padding:0;margin:0;}
+ul.border-list li {border-bottom:1px solid #ddd;padding:12px;}
+#navigation {text-align:center;}
+.open-sans {font-family:'Open Sans',sans-serif;}
+#navigation ul {text-align:right;}
+#navigation a {text-decoration:none;}
+a:focus, a:hover {color:#222;}
+.right {text-align:right;}
+#header .hover {color:#c14331;}
+#navigation .hover {color:#c14331;}
