@@ -7,10 +7,10 @@
 .fancybox-error{color:#444;font:14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;margin:0;padding:10px;}
 .fancybox-image, .fancybox-iframe{display:block;width:100%;height:100%;border:0;padding:0;margin:0;vertical-align:top;}
 .fancybox-image{max-width:100%;max-height:100%;}
-#fancybox-loading{position:fixed;top:50%;left:50%;margin-top:-21px;margin-left:-21px;width:42px;height:42px;background:url('/images/fancybox_loading.gif');opacity:0.8;cursor:pointer;z-index:1010;}
-.fancybox-close, .fancybox-prev span, .fancybox-next span{background-image:url('/images/fancybox_sprite.png');}
+#fancybox-loading{position:fixed;top:50%;left:50%;margin-top:-21px;margin-left:-21px;width:42px;height:42px;background:url('/images/fancybox/fancybox_loading.gif');opacity:0.8;cursor:pointer;z-index:1010;}
+.fancybox-close, .fancybox-prev span, .fancybox-next span{background-image:url('/images/fancybox/fancybox_sprite.png');}
 .fancybox-close{position:absolute;top:-18px;right:-18px;width:36px;height:36px;cursor:pointer;z-index:1004;}
-.fancybox-prev, .fancybox-next{position:absolute;top:0;width:40%;height:100%;cursor:pointer;background:transparent url('/images/blank.gif');z-index:1003;}
+.fancybox-prev, .fancybox-next{position:absolute;top:0;width:40%;height:100%;cursor:pointer;background:transparent url('/images/fancybox/blank.gif');z-index:1003;}
 .fancybox-prev{left:0;}
 .fancybox-next{right:0;}
 .fancybox-prev span, .fancybox-next span{position:absolute;top:50%;left:-9999px;width:36px;height:36px;margin-top:-18px;cursor:pointer;z-index:1003;}
