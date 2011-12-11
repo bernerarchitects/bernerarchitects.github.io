@@ -11,6 +11,6 @@ a:focus, a:hover{color:#222;}
 ul.no-disc{list-style-type:none;}
 .item{padding:5px;border:1px solid #ddd;}
 .item{padding:5px;border:1px solid #ddd;}
-.item:hover, .item:focus {border: 1px solid #222;}
+.border-hover {border: 1px solid #222;}
 .current{color:#c14331;}
 a.current:hover, a.current:focus {color:#c14331;}
