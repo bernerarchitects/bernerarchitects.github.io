@@ -19,7 +19,7 @@ layout: default
 {% for post in paginator.posts %}
 <div id="portfolio" class="span-24 center">
   <div class="span-7 append-1">
-    <em class="large">{{ post.date | date_to_string }}</em>
+    <em class="large">{{ post.date | date_to_long_string }}</em>
   </div>
 
   <div class="span-8 append-1">
