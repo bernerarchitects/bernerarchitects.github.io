@@ -17,9 +17,24 @@ layout: default
 <hr />
 
 {% for post in paginator.posts %}
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<div id="portfolio" class="span-24 center">
+  <div class="span-7 append-1">
+    <em class="large">{{ post.date | date_to_string }}</em>
+  </div>
 
+  <div class="span-8 append-1">
+    <h2><a class="loud" href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>
+      {{ post.content | strip_html | truncatewords: 25 }}
+    </p>
+  </div>
+
+  <div class="span-5 prepend-1 append-1 last">
+    <a href="{{ post.url }}"><img width="180" class="top left item" src="/images/portfolio/look_back/IMG_0847.jpeg"></a>
     <hr class="space" />
+  </div>
+</div>
+  <hr />
 {% endfor %}
 
 {% if paginator.previous_page %}

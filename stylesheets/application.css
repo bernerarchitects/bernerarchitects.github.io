@@ -2,11 +2,12 @@
 #navigation{text-align:center;}
 .open-sans{font-family:'Open Sans',sans-serif;}
 #navigation ul{text-align:right;}
-#navigation a{text-decoration:none;}
+#navigation a, #portfolio a{text-decoration:none;}
 a:focus, a:hover{color:#222;}
 .right{text-align:right;}
 #header .hover{color:#c14331;}
 #navigation .hover{color:#c14331;}
+#portfolio .hover{color:#c14331;}
 .center{text-align:center;}
 ul.no-disc{list-style-type:none;}
 .item{padding:5px;border:1px solid #ddd;}
@@ -14,3 +15,5 @@ ul.no-disc{list-style-type:none;}
 .border-hover {border: 1px solid #222;}
 .current{color:#c14331;}
 a.current:hover, a.current:focus {color:#c14331;}
+#services p .left{padding:5px;}
+#services p .right{padding:5px;}

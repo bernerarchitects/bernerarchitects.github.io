@@ -4,7 +4,7 @@ $(document).ready(function() {
       $(this).toggleClass("hover", "fast");
     }
   );
-  $("#portfolio img").hover(
+  $(".item").hover(
     function () {
       $(this).toggleClass("border-hover", "fast");
     }
