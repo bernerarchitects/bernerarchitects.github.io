@@ -17,7 +17,7 @@ layout: default
 <hr />
 
 {% for post in paginator.posts %}
-<div id="portfolio" class="span-24 center">
+<div class="post span-24 center">
   <div class="span-7 append-1">
     <em class="large">{{ post.date | date_to_long_string }}</em>
   </div>
@@ -30,7 +30,7 @@ layout: default
   </div>
 
   <div class="span-5 prepend-1 append-1 last">
-    <a href="{{ post.url }}"><img width="180" height="{{ post.thumbnail_height }}" class="top left item" src="{{ post.thumbnail }}"></a>
+    <a href="{{ post.url }}"><img width="180" alt="{{ post.title }}" height="{{ post.thumbnail_height }}" class="top left item" src="{{ post.thumbnail }}"></a>
     <hr class="space" />
   </div>
 </div>
