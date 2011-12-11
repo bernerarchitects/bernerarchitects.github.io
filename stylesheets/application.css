@@ -1,6 +1,4 @@
 #header h1 a{text-decoration:none;font-family:'Sorts Mill Goudy',serif}
-ul.list{list-style:none;padding:0;margin:0;}
-ul.border-list li{border-bottom:1px solid #ddd;padding:12px;}
 #navigation{text-align:center;}
 .open-sans{font-family:'Open Sans',sans-serif;}
 #navigation ul{text-align:right;}
@@ -10,3 +8,9 @@ a:focus, a:hover{color:#222;}
 #header .hover{color:#c14331;}
 #navigation .hover{color:#c14331;}
 .center{text-align:center;}
+ul.no-disc{list-style-type:none;}
+.item{padding:5px;border:1px solid #ddd;}
+.item{padding:5px;border:1px solid #ddd;}
+.item:hover, .item:focus {border: 1px solid #222;}
+.current{color:#c14331;}
+a.current:hover, a.current:focus {color:#c14331;}
