@@ -9,7 +9,7 @@ a:focus, a:hover{color:#222;}
 #navigation .hover{color:#c14331;}
 .post .hover{color:#c14331;}
 .center{text-align:center;}
-ul.no-disc{list-style-type:none;}
+ul.no-disc{padding-left:0;list-style-type:none;}
 .item{padding:5px;border:1px solid #ddd;}
 .item{padding:5px;border:1px solid #ddd;}
 .border-hover {border: 1px solid #222;}
