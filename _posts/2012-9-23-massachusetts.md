@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Massachusetts
-thumbnail: /images/portfolio/massachusetts/15.jpg
-thumbnail_height: 115
+thumbnail: /images/massachusetts_thumb.jpg
+thumbnail_height: 135
 ---
 
 <div class="span-4 append-1"><a class="fancybox" data-fancybox-group="group" href="/images/portfolio/massachusetts/1.jpg"><img height="126" alt="Massachusetts" width="140" class="top left item" src="/images/portfolio/massachusetts/1t.jpg"></a></div>
