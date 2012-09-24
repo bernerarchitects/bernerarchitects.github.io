@@ -5,10 +5,10 @@ thumbnail: /images/portfolio/massachusetts/15.jpg
 thumbnail_height: 115
 ---
 
-<div class="span-4 append-1"><a class="fancybox" data-fancybox-group="group" href="/images/portfolio/massachusetts/20.jpg"><img height="" alt="Massachusetts" width="140" class="top left item" src="/images/portfolio/massachusetts/20t.jpg"></a></div>
 <div class="span-4 append-1"><a class="fancybox" data-fancybox-group="group" href="/images/portfolio/massachusetts/1.jpg"><img height="" alt="Massachusetts" width="140" class="top left item" src="/images/portfolio/massachusetts/1t.jpg"></a></div>
 <div class="span-4 append-1"><a class="fancybox" data-fancybox-group="group" href="/images/portfolio/massachusetts/2.jpg"><img height="" alt="Massachusetts" width="140" class="top left item" src="/images/portfolio/massachusetts/2t.jpg"></a></div>
 <div class="span-4 append-1"><a class="fancybox" data-fancybox-group="group" href="/images/portfolio/massachusetts/3.jpg"><img height="" alt="Massachusetts" width="140" class="top left item" src="/images/portfolio/massachusetts/3t.jpg"></a></div>
+<div class="span-4 append-1"><a class="fancybox" data-fancybox-group="group" href="/images/portfolio/massachusetts/23.jpg"><img height="" alt="Massachusetts" width="140" class="top left item" src="/images/portfolio/massachusetts/23t.jpg"></a></div>
 <div class="span-4 last"><a class="fancybox" data-fancybox-group="group" href="/images/portfolio/massachusetts/4.jpg"><img height="" alt="Massachusetts" width="140" class="top left item" src="/images/portfolio/massachusetts/4t.jpg"></a></div>
 
 <hr class="space" />
@@ -44,5 +44,4 @@ thumbnail_height: 115
 <div class="span-4 append-1"><a class="fancybox" data-fancybox-group="group" href="/images/portfolio/massachusetts/20.jpg"><img height="" alt="Massachusetts" width="140" class="top left item" src="/images/portfolio/massachusetts/20t.jpg"></a></div>
 <div class="span-4 append-1"><a class="fancybox" data-fancybox-group="group" href="/images/portfolio/massachusetts/21.jpg"><img height="" alt="Massachusetts" width="140" class="top left item" src="/images/portfolio/massachusetts/21t.jpg"></a></div>
 <div class="span-4 append-1"><a class="fancybox" data-fancybox-group="group" href="/images/portfolio/massachusetts/22.jpg"><img height="" alt="Massachusetts" width="140" class="top left item" src="/images/portfolio/massachusetts/22t.jpg"></a></div>
-<div class="span-4 append-1"><a class="fancybox" data-fancybox-group="group" href="/images/portfolio/massachusetts/23.jpg"><img height="" alt="Massachusetts" width="140" class="top left item" src="/images/portfolio/massachusetts/23t.jpg"></a></div>
 
