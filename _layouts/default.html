@@ -13,12 +13,46 @@
     <link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
     <link href="/stylesheets/jquery.fancybox.css" rel="stylesheet" media="screen" type="text/css" />
-    <link href="/stylesheets/application.css" rel="stylesheet" media="screen, projection" type="text/css" />
+    <style type="text/css">
+      #header h1 a{text-decoration:none;font-family:'Sorts Mill Goudy',serif}
+      #navigation{text-align:center;}
+      .open-sans{font-family:'Open Sans',sans-serif;}
+      #navigation ul{text-align:right;}
+      #navigation a, .post a{text-decoration:none;}
+      a:focus, a:hover{color:#222;}
+      .right{text-align:right;}
+      #header .hover{color:#c14331;}
+      #navigation .hover{color:#c14331;}
+      .post .hover{color:#c14331;}
+      .center{text-align:center;}
+      ul.no-disc{padding-left:0;list-style-type:none;}
+      .item{padding:5px;border:1px solid #ddd;}
+      .item{padding:5px;border:1px solid #ddd;}
+      .border-hover {border: 1px solid #222;}
+      .current{color:#c14331;}
+      a.current:hover, a.current:focus {color:#c14331;}
+      #services p .left{padding:5px;}
+      #services p .right{padding:5px;}
+    </style>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
     <script type="text/javascript" src="/javascripts/jquery.fancybox.pack.js"></script>
-    <script type="text/javascript" src="/javascripts/application.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("a").hover(
+          function () {
+            $(this).toggleClass("hover", "fast");
+          }
+        );
+        $(".item").hover(
+          function () {
+            $(this).toggleClass("border-hover", "fast");
+          }
+        );
 
+        $(".fancybox").fancybox();
+      });
+    </script>
     <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
   </head>
   <body>
