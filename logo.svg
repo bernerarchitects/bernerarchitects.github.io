@@ -1,0 +1,23 @@
+<svg viewBox="-3 -3 766 556" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="currentColor" stroke-width="5" stroke-linecap="round">
+    <line x1="210" y1="0" x2="210" y2="550" />
+    <line x1="550" y1="0" x2="550" y2="550" />
+    <line x1="0" y1="210" x2="760" y2="210" />
+    <line x1="0" y1="275" x2="760" y2="275" />
+    <line x1="0" y1="340" x2="210" y2="340" />
+    <line x1="550" y1="340" x2="760" y2="340" />
+    <line x1="0" y1="0" x2="550" y2="550" />
+    <line x1="210" y1="0" x2="760" y2="550" />
+    <line x1="760" y1="0" x2="210" y2="550" />
+    <line x1="550" y1="0" x2="0" y2="550" />
+    <line x1="210" y1="0" x2="0" y2="210" />
+    <line x1="550" y1="0" x2="760" y2="210" />
+    <line x1="0" y1="340" x2="210" y2="550" />
+    <line x1="760" y1="340" x2="550" y2="550" />
+  </g>
+  <g stroke="currentColor" stroke-width="5">
+    <polyline points="210,550 0,550 0,0 760,0 760,550 550,550" />
+    <circle cx="380" cy="170" r="40" />
+    <circle cx="380" cy="380" r="170" />
+  </g>
+</svg>
