@@ -1,4 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <polygon points="10,90 90,90 10,10" fill="none" stroke="#8E3A2B" stroke-width="16" stroke-linejoin="miter"/>
-  <polygon points="35,65 65,65 35,35" fill="#8E3A2B"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .block { fill: #EBE9E4 }
+      .keystone { fill: #B85A45 }
+    }
+  </style>
+  <path class="block" fill="#1A1918"
+        d="M2 2H30V30H22V16A6 6 0 0 0 10 16V30H2Z"/>
+  <path class="keystone" fill="#CE6B58"
+        d="M12.75 6H19.25L17.85 10.29A6 6 0 0 0 14.15 10.29Z"/>
 </svg>
